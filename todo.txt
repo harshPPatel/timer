@@ -1,0 +1,2 @@
+[ ] markdown lint -> https://github.com/DavidAnson/markdownlint
+[ ] clean all files and add lines which make sense!😂
