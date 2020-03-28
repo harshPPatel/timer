@@ -1,0 +1,40 @@
+header {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 32px 0;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  li.logo {
+    margin-right: auto;
+  }
+
+  li:last-of-type {
+    margin-left: 22px;
+  }
+
+  li a {
+    text-transform: uppercase;
+    transition: all 0.1s ease-in;
+    color: $white-color;
+    letter-spacing: 1px;
+
+    &:link,
+    &:visited {
+      opacity: 0.70;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+}

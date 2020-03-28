@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Starter Kit with Parcel JS</title>
+    <title>Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/app.scss">
   </head>
-  <body>
-    <h1>Hello World 🌎!</h1>
+  <body data-barba="wrapper">
+    <header>
+      <nav>
+        <li class="logo">
+          <a href="#">Timer</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="https://github.com/harshPPatel/timer" target="_blank">GitHub</a>
+        </li>
+      </nav>
+    </header>
+  
+    <main data-barba="container" data-barba-namespace="home">
+      <h1>Home</h1>
+      <div id="timer">
+        timer
+      </div>
+    </main>
+  
+    <footer>Footer</footer>
   </body>
   <script src="./js/app.js"></script>
 </html>

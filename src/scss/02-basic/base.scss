@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $primary-color;
+  color: $white-color;
+}
+
+body {
+  font-family: 'Nova Square', cursive;
+  min-height: 700px;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+
+  &::before,
+  &::after {
+    z-index: 0;
+    content: '';
+    position: absolute;
+  }
+
+  &::before {
+    height: 40vh;
+    width: 450px;
+    background: url('/img/left-bg.png') left center no-repeat;
+    background-size: contain;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  &::after {
+    height: 20vh;
+    width: 20vh;
+    background: url('/img/right-bg.png') right bottom no-repeat;
+    background-size: contain;
+    bottom: 0;
+    right: 0;
+  }
+}

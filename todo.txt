@@ -1,2 +1,6 @@
-[ ] markdown lint -> https://github.com/DavidAnson/markdownlint
-[ ] clean all files and add lines which make sense!😂
+[ ] change about page link
+  - when about link is clicked, slide the timer to left and slide in about text section from right to left
+  - Keep timer working as it was on main screen
+[ ] Favicon
+[ ] 404 page
+[ ] Responsive
