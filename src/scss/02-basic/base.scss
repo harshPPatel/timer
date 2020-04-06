@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'Nova Square', cursive;
-  min-height: 700px;
+  min-height: 825px;
   height: 100vh;
   position: relative;
   z-index: 1;
@@ -39,4 +39,10 @@ body {
     bottom: 0;
     right: 0;
   }
+}
+
+audio {
+  position: absolute;
+  left: 10000px;
+  opacity: 0;
 }

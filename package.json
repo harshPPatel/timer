@@ -38,6 +38,7 @@
     "stylelint": "^13.0.0"
   },
   "dependencies": {
+    "p5": "^1.0.0",
     "reset-css": "^5.0.1"
   },
   "husky": {

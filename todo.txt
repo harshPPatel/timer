@@ -1,3 +1,4 @@
+[ ] add age loader which shows for one second
 [ ] change about page link
   - when about link is clicked, slide the timer to left and slide in about text section from right to left
   - Keep timer working as it was on main screen

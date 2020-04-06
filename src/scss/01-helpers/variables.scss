@@ -1,5 +1,10 @@
 // COLORS
 $primary-color: #021f59 !default;
+$primary-dark-color: #00143c !default;
+$border-color: #0a4273 !default;
 $secondary-color: #04bfad !default;
 $error-color: #f20732 !default;
 $white-color: #fff !default;
+
+// BOX SHADOWS
+$canvas-shadow: 0 4px 200px rgba($primary-dark-color, 0.5);

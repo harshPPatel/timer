@@ -1,0 +1,137 @@
+main {
+  max-width: 1280px;
+  width: 95%;
+  margin: 32px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &.buzz {
+    animation: buzz 1.25s ease-in-out infinite;
+  }
+
+  canvas {
+    border-radius: 400px;
+    box-shadow: $canvas-shadow;
+  }
+
+  #error {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: $error-color;
+    margin-top: 24px;
+  }
+
+  form {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+
+    &.error {
+      color: $error-color;
+
+      input {
+        color: $error-color;
+        border-color: $error-color;
+      }
+    }
+
+    input {
+      width: 70px;
+      border: none;
+      color: $white-color;
+      font-family: 'Nova Square', cursive;
+      font-size: 50px;
+      text-align: center;
+      box-shadow: none;
+      background-color: transparent;
+      border-bottom: 2px solid $white-color;
+
+      &:disabled {
+        border-bottom: none;
+      }
+    }
+
+    #buttons {
+      width: 100%;
+      text-align: center;
+      margin-top: 16px;
+    }
+
+    button {
+      background-color: transparent;
+      box-shadow: none;
+      border: none;
+      color: $white-color;
+      font-family: 'Nova Square', cursive;
+      font-size: 24px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    button[value='pause'],
+    button[value='resume'],
+    button[value='reset'] {
+      display: none;
+    }
+  }
+}
+
+#volume {
+  position: absolute;
+  top: -12px;
+  left: calc(50% + 150px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: $white-color;
+  cursor: pointer;
+
+  img {
+    height: 38px;
+    width: 38px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+  }
+
+  span {
+    opacity: 50%;
+  }
+}
+
+@keyframes buzz {
+  0% {
+    transform: translateX(0);
+  }
+
+  5% {
+    transform: translateX(6px);
+  }
+
+  10% {
+    transform: translateX(0);
+  }
+
+  15% {
+    transform: translateX(-6px);
+  }
+
+  20% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
