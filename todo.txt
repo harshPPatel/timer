@@ -1,7 +1,15 @@
+[ ] Complete About Page styles
+[ ] add basic animation to about page (slide right the image)
+
 [ ] add age loader which shows for one second
-[ ] change about page link
-  - when about link is clicked, slide the timer to left and slide in about text section from right to left
-  - Keep timer working as it was on main screen
+
 [ ] Favicon
 [ ] 404 page
 [ ] Responsive
+[ ] Make it PWA (might be already done during favicon integration)
+[ ] refactor the code! (It is too messy)
+[ ] refactor scss code!
+[ ] add titles to icons inside history list, it will show user what that icon will do when they hover on it
+
+[ ] compelte readme file
+[ ] add deployed live site link in repo

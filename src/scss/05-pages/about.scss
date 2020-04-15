@@ -1,0 +1,46 @@
+body#about {
+  main {
+    margin-top: -32px;
+    align-items: flex-start;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 650px;
+      margin-left: -100px;
+    }
+
+    .text {
+      margin-top: 20vh;
+      max-width: 450px;
+      line-height: 150%;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin-bottom: 50px;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      opacity: 0.75;
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+
+    a {
+      color: $white-color;
+      transition: all 0.2s ease;
+
+      &:link,
+      &:visited {
+        opacity: 1;
+      }
+
+      &:hover,
+      &:active {
+        opacity: 0.75;
+      }
+    }
+  }
+}
