@@ -94,10 +94,10 @@ function updatePastTimers() {
             ${seconds}
           </p>
           <a href="#" class="clock-icon" data-value="${t}">
-            <img src="${clockIcon}" alt="Clock Icon" />
+            <img src="${clockIcon}" alt="Clock Icon" title="Use this Time" />
           </a>
           <a href="#" class="delete-icon" data-value="${index}">
-            <img src="${deleteIcon}" alt="Delete Icon" />
+            <img src="${deleteIcon}" alt="Delete Icon" title="Delete this time entry" />
           </a>
         </div>
       `;
