@@ -1,5 +1,5 @@
 {
-  "name": "starter-kit",
+  "name": "timer",
   "version": 2,
   "builds": [
     {
@@ -7,6 +7,5 @@
       "use": "@now/static"
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "dist/$1" }],
-  "alias": ["starter-kit.now.sh"]
+  "routes": [{ "src": "/(.*)", "dest": "dist/$1" }]
 }

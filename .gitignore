@@ -462,3 +462,4 @@ MigrationBackup/
 # Build Folder
 build/
 dist/
+.now
