@@ -9,7 +9,7 @@
     "lint:css": "stylelint ./src/scss/**/*.scss --config .stylelintrc.json",
     "lint:js": "eslint ./src/js/app.js",
     "docs": "./node_modules/.bin/jsdoc src -d docs",
-    "deploy": "npm run build && now"
+    "deploy": "npm run build && now --prod"
   },
   "repository": {
     "type": "git",

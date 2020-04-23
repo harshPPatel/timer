@@ -8,17 +8,39 @@ body#about {
       height: auto;
       max-width: 650px;
       margin-left: -100px;
+
+      @media screen and (max-width: 900px) {
+        max-width: 550px;
+      }
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
     }
 
     .text {
       margin-top: 20vh;
       max-width: 450px;
       line-height: 150%;
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+        max-width: initial;
+        width: 90%;
+      }
+
+      @media screen and (max-width: 500px) {
+        margin-top: 80px;
+      }
     }
 
     h1 {
       font-size: 64px;
       margin-bottom: 50px;
+
+      @media screen and (max-width: 900px) {
+        font-size: 50px;
+      }
     }
 
     p {
@@ -26,6 +48,14 @@ body#about {
       opacity: 0.75;
       font-size: 20px;
       letter-spacing: 1px;
+
+      @media screen and (max-width: 900px) {
+        font-size: 18px;
+      }
+
+      @media screen and (max-width: 425px) {
+        font-size: 16px;
+      }
     }
 
     a {

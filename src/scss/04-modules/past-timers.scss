@@ -1,9 +1,13 @@
 #pastTimers {
   max-width: 425px;
   width: 95%;
-  margin: 0 auto 50px;
-  // border: 2px solid $border-color;
+  margin: 0 auto;
+  padding-bottom: 50px;
   border-radius: 8px;
+
+  @media screen and (max-width: 530px) {
+    width: 70%;
+  }
 
   .past-timer {
     height: 70px;
@@ -13,6 +17,11 @@
     justify-content: center;
     border-bottom: 2px solid $border-color;
 
+    @media screen and (max-width: 530px) {
+      height: 50px;
+      padding: 12px 30px;
+    }
+
     &:last-of-type {
       border-bottom: none;
     }
@@ -21,6 +30,10 @@
       margin-right: auto;
       font-size: 24px;
       color: rgba($white-color, 0.75);
+
+      @media screen and (max-width: 530px) {
+        font-size: 18px;
+      }
     }
 
     .clock-icon {

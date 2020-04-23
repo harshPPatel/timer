@@ -1,14 +1,13 @@
+[x] add titles to icons inside history list, it will show user what that icon will do when they hover on it
 [X] Complete About Page styles
+[x] add page loader which shows for one second
+[x] Responsive
+[X] Favicon
 
-[ ] add page loader which shows for one second
-
-[ ] Favicon
 [ ] 404 page
-[ ] Responsive
 [ ] Make it PWA (might be already done during favicon integration)
 [ ] refactor the code! (It is too messy)
 [ ] refactor scss code!
-[x] add titles to icons inside history list, it will show user what that icon will do when they hover on it
-
-[ ] compelte readme file
+[ ] complete readme file
 [ ] add deployed live site link in repo
+[ ] deploy it to personal domain as well!

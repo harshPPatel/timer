@@ -14,6 +14,11 @@ main {
   canvas {
     border-radius: 400px;
     box-shadow: $canvas-shadow;
+
+    @media screen and (max-width: 530px) {
+      height: 275px !important;
+      width: 275px !important;
+    }
   }
 
   #error {
@@ -22,6 +27,11 @@ main {
     font-size: 24px;
     color: $error-color;
     margin-top: 24px;
+
+    @media screen and (max-width: 530px) {
+      margin-top: 16px;
+      font-size: 18px;
+    }
   }
 
   form {
@@ -34,6 +44,12 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     font-size: 50px;
+    width: 100%;
+
+    @media screen and (max-width: 425px) {
+      top: 40%;
+      font-size: 32px;
+    }
 
     &.error {
       color: $error-color;
@@ -55,6 +71,16 @@ main {
       background-color: transparent;
       border-bottom: 2px solid $white-color;
 
+      @media screen and (max-width: 530px) {
+        width: 56px;
+        font-size: 36px;
+      }
+
+      @media screen and (max-width: 425px) {
+        width: 45px;
+        font-size: 32px;
+      }
+
       &:disabled {
         border-bottom: none;
       }
@@ -64,6 +90,10 @@ main {
       width: 100%;
       text-align: center;
       margin-top: 16px;
+
+      @media screen and (max-width: 530px) {
+        margin-top: 0;
+      }
     }
 
     button {
@@ -75,6 +105,10 @@ main {
       font-size: 24px;
       text-decoration: underline;
       cursor: pointer;
+
+      @media screen and (max-width: 530px) {
+        font-size: 18px;
+      }
     }
 
     button[value='pause'],
@@ -98,11 +132,20 @@ main {
   color: $white-color;
   cursor: pointer;
 
+  @media screen and (max-width: 530px) {
+    left: calc(50% + 115px);
+  }
+
   img {
     height: 38px;
     width: 38px;
     margin-bottom: 4px;
     margin-left: 2px;
+
+    @media screen and (max-width: 530px) {
+      height: 28px;
+      width: 28px;
+    }
   }
 
   span {

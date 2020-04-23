@@ -3,4 +3,8 @@ p.label {
   margin: 60px 0 32px;
   text-transform: uppercase;
   opacity: 0.75;
+
+  @media screen and (max-width: 530px) {
+    margin: 40px 0 24px;
+  }
 }
